@@ -2,7 +2,8 @@ body{
     background-color: #1A374D;
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
 
 .h1{
@@ -87,6 +88,8 @@ body{
     border-radius: 25px;
     background-color: #1A374D;
     color: #f1f1f1;
+    border: 2px solid white;
+
 }
 .head p{
     font-size: 1.2em;
@@ -97,10 +100,6 @@ body{
 
 
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
 
 h2 {
     text-align: center;
@@ -116,32 +115,28 @@ table {
     left: 50%;
     transform: translate(-50%);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.188);
-    overflow-wrap: anywhere;
 }
 
-
-.styled-table th,
-.styled-table td {
+tr{
+    height: 7svh;
+}
+.styled-table th,.styled-table td {
     padding: 12px;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     text-align: center;
 }
 
-.styled-table th {
+.styled-table th{
     background-color: #1A374D;
     text-transform: uppercase;
     font-weight: bold;
     color: #f1f1f1;
 }
 
-.styled-table tbody tr:nth-child(even) {
-    background-color: #B1D0E0;
+.styled-table tbody tr:nth-child(odd) {
+    background-color: #b1d0e07c;
 }
 
-.styled-table tbody tr:hover {
-    background-color: #00000048;
-    cursor: pointer;
-}
 
 .status {
     padding: 6px 12px;
@@ -158,9 +153,6 @@ table {
     background-color: #406882;
 }
 
-.status.canceled {
-    background-color: #6998AB;
-}
 
 .sent {
     color: green;
@@ -172,26 +164,24 @@ table {
 
 .action-btn {
     border: none;
-    padding: 6px 8px;
     cursor: pointer;
     border-radius: 5px;
+    background-color: transparent;
+    color: #000000;
 }
 
-.view {
+.back{
+    height: 5svh;
+    width: 80px;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
     background-color: #1A374D;
-    color: white;
-}
-
-.edit {
-    background-color: #ffc107;
-    color: white;
-}
-
-.delete {
-    background-color: #f44336;
-    color: white;
-}
-
-.action-btn:hover {
-    opacity: 0.8;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: aliceblue;
+    box-shadow: 0px 0px 10px 0px black;
+    font-size: 1.2em;
+    scale: 1.2;
+    cursor: pointer;
 }
