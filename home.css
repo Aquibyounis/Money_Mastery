@@ -87,9 +87,10 @@ body{
     top: 10px;
     transform: translate(-50%);
 }
-.edit{
+.edit a{
     height: 10%;
     width: 15%;
+    text-decoration: none;
     background-color: #1A374D;
     display: flex;
     align-items: center;
