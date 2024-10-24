@@ -21,4 +21,4 @@ n2.addEventListener('click',function(){
 })
 n3.addEventListener('click',function(){
     alert('This page is under construction');
-})
+}) 
