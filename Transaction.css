@@ -184,4 +184,10 @@ tr{
     font-size: 1.2em;
     scale: 1.2;
     cursor: pointer;
+    text-decoration: none;
+}
+
+#click{
+    text-decoration: none;
+    color: #f1f1f1;
 }
